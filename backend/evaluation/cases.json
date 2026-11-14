@@ -1,0 +1,172 @@
+[
+  {
+    "id": "c1",
+    "category": "course",
+    "question": "ما المتطلب السابق لمساق 10636581؟",
+    "reference_answer": "المتطلب السابق هو 10636410.",
+    "expected_chunk_ids": [
+      "e097f47c-1f1f-4a40-b4b3-dd40eeb89730"
+    ],
+    "should_refuse": false,
+    "verification_notes": "Official Computer Engineering study plan, course 10636581, prerequisite column."
+  },
+  {
+    "id": "c2",
+    "category": "course",
+    "question": "ما اسم ورمز مساق مشروع تخرج 2؟",
+    "reference_answer": "مشروع تخرج 2، 10636582.",
+    "expected_chunk_ids": [
+      "87395a0a-25e4-46df-b7e2-8d8d5fac09bd"
+    ],
+    "should_refuse": false,
+    "verification_notes": "Official Computer Engineering study plan, course 10636582."
+  },
+  {
+    "id": "c3",
+    "category": "course",
+    "question": "ما اسم المساق 10636410؟",
+    "reference_answer": "مهارات التفكير النقدي والبحث.",
+    "expected_chunk_ids": [
+      "ee794724-8617-46c0-9f04-81c95e32231a"
+    ],
+    "should_refuse": false,
+    "verification_notes": "Official Computer Engineering study plan, course 10636410."
+  },
+  {
+    "id": "c4",
+    "category": "course",
+    "question": "ما اسم المساق 10636304؟",
+    "reference_answer": "التدريب العملي.",
+    "expected_chunk_ids": [
+      "6fdd9280-9d85-4b79-a41b-81e5a03906b7"
+    ],
+    "should_refuse": false,
+    "verification_notes": "Official Computer Engineering study plan, course 10636304."
+  },
+  {
+    "id": "c5",
+    "category": "course",
+    "question": "ما اسم المساق 11000103؟",
+    "reference_answer": "اللغة الإنجليزية 1.",
+    "expected_chunk_ids": [
+      "72b51c33-213f-437e-9180-d4a4a4240b18",
+      "15969b05-94f9-4b21-b7e2-b713dec327fe"
+    ],
+    "should_refuse": false,
+    "verification_notes": "Official Computer Engineering study plan, course 11000103."
+  },
+  {
+    "id": "p1",
+    "category": "policy",
+    "question": "ما هي العلامة المسموح فيها إعادة المساق؟",
+    "reference_answer": "يجوز إعادة المساق بتقدير C فأدنى بهدف رفع المعدل.",
+    "expected_chunk_ids": [
+      "52b6699b-e1b9-40c5-9c09-bad067b1bdd9",
+      "b65f658c-01b9-4041-8d0b-39797a37ccb6"
+    ],
+    "should_refuse": false,
+    "verification_notes": "2026–2027 Student Guide, print page 84, Article 13(c). The threshold is for raising the cumulative GPA."
+  },
+  {
+    "id": "p2",
+    "category": "policy",
+    "question": "كم يومًا بعد إعلان النتائج يجوز تقديم الاعتراض على العلامة؟",
+    "reference_answer": "ثلاثة أيام من تاريخ إعلان النتائج.",
+    "expected_chunk_ids": [
+      "0d71ce7d-bb40-4143-bb20-15be345e1a54"
+    ],
+    "should_refuse": false,
+    "verification_notes": "2026–2027 Student Guide, print page 80. This is the ordinary objection deadline. The medical-program passage on page 102 is out of scope."
+  },
+  {
+    "id": "p3",
+    "category": "policy",
+    "question": "متى ينتهي موعد تقديم طلب الامتحان الاستكمالي؟",
+    "reference_answer": "خلال 10 أيام من نهاية الفصل.",
+    "expected_chunk_ids": [
+      "d5a11bf8-c119-490e-90a6-d0b86718f6a9",
+      "d7a856a2-5acc-4ce9-a49e-99a799f8e837"
+    ],
+    "should_refuse": false,
+    "verification_notes": "2026–2027 Student Guide, print page 92, Article 23(a). The deadline applies to eligible applicants."
+  },
+  {
+    "id": "p4",
+    "category": "policy",
+    "question": "هل يسمح باستبدال مساق إجباري غير مطروح يتوقف عليه التخرج؟",
+    "reference_answer": "يجوز لمجلس القسم الموافقة على بديل مناسب في المستوى والمحتوى.",
+    "expected_chunk_ids": [
+      "9c9b6892-63b6-400b-b7ba-94b26ef9357c"
+    ],
+    "should_refuse": false,
+    "verification_notes": "2026–2027 Student Guide, print pages 91–92, Article 21. Substitution is subject to department council approval."
+  },
+  {
+    "id": "h1",
+    "category": "challenging",
+    "question": "ما الفرق بين مشروع تخرج 1 ومشروع تخرج 2 من حيث المتطلبات السابقة؟",
+    "reference_answer": "كلاهما يتطلب المساق 10636410.",
+    "expected_chunk_ids": [
+      "e097f47c-1f1f-4a40-b4b3-dd40eeb89730",
+      "87395a0a-25e4-46df-b7e2-8d8d5fac09bd"
+    ],
+    "should_refuse": false,
+    "verification_notes": "Official Computer Engineering study plan, both project rows list 10636410."
+  },
+  {
+    "id": "h2",
+    "category": "challenging",
+    "question": "شو اسم هاد المتطلب؟",
+    "reference_answer": "مهارات التفكير النقدي والبحث، 10636410.",
+    "expected_chunk_ids": [
+      "ee794724-8617-46c0-9f04-81c95e32231a"
+    ],
+    "should_refuse": false,
+    "history_ids": [
+      "h1"
+    ],
+    "verification_notes": "Official Computer Engineering study plan, shared code 10636410 resolves to the course name."
+  },
+  {
+    "id": "h3",
+    "category": "challenging",
+    "question": "ما متطلب هذا المتطلب نفسه؟",
+    "reference_answer": "متطلب مهارات التفكير النقدي والبحث هو 11000103.",
+    "expected_chunk_ids": [
+      "ee794724-8617-46c0-9f04-81c95e32231a"
+    ],
+    "should_refuse": false,
+    "history_ids": [
+      "h1",
+      "h2"
+    ],
+    "verification_notes": "Official Computer Engineering study plan, the prerequisite column for 10636410 lists 11000103."
+  },
+  {
+    "id": "u1",
+    "category": "unanswerable",
+    "question": "ما كلمة مرور حسابي في بوابة الطالب؟",
+    "reference_answer": null,
+    "expected_chunk_ids": [],
+    "should_refuse": true,
+    "verification_notes": "The academic corpus does not contain account-specific passwords. A portal help article would not answer this question."
+  },
+  {
+    "id": "u2",
+    "category": "unanswerable",
+    "question": "ما رقم جواز السفر الخاص بي المسجل لدى الجامعة؟",
+    "reference_answer": null,
+    "expected_chunk_ids": [],
+    "should_refuse": true,
+    "verification_notes": "The academic corpus does not contain individual passport records. Admissions requirements would not answer this question."
+  },
+  {
+    "id": "u3",
+    "category": "unanswerable",
+    "question": "ما رقم تذكرة الدعم التي قدمتها أمس عن التسجيل؟",
+    "reference_answer": null,
+    "expected_chunk_ids": [],
+    "should_refuse": true,
+    "verification_notes": "The academic corpus does not contain user-specific support ticket records. Registration guidance would not answer this question."
+  }
+]
